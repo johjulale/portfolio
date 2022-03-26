@@ -1,0 +1,30 @@
+body {
+    background-color: #000;
+    color: #fff;
+}
+main {
+    border: 1px solid white;
+}
+h1 {
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+.menu li {
+    list-style: none;
+    list-style-type: none;
+    padding: 10px;
+}
+img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid red;
+}
+#hero {
+    display: block;
+    width: 750px;
+}
