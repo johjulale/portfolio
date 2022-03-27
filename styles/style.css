@@ -1,10 +1,12 @@
 body {
     background-color: #000;
     color: #fff;
+    font-size: 16px;
 }
 nav {
     display: flex;
 }
+
 
 .logo-box {
     display: flex;
@@ -41,46 +43,41 @@ nav {
 }
 
 .image-container {
-    display: flex;
-    margin-top: 50px;
-    /*align-items: center;*/
-    justify-content: flex-start;
-    position:relative;
-    padding-left: 20%;
-    width:100%;
-    /*border: 1px solid blue;*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
 }
 .image-container img {
     opacity: 50%;
+    margin: 0;
+    padding: 0;
+    margin-left: 500px;
     border-radius: 50%;
-    
 }
 .image-container #me {
-    position: absolute;
-    padding: 10px;
-    top: 0%;
-    left: 5%;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 75px;
+    font-size: 4.6rem;
     font-weight: bold;
-    z-index: 1;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 600px;
+    z-index: 1;  
 }
 .hello {
-    font-size:150px;
+    font-size:9.375rem;
 }
 .quote-1 {
     font-family: 'Shadows Into Light', cursive;
     font-size: 50px;
     color: #fff;
-    display: block;
-    width: 20%;
-    height: 20%;
+    width: 400px;
     text-align: center;
-    position: relative;
-    left: 150px;
-    margin: 0;
-    padding: 0;
-    top: 250px;
-    
-    
+    position: absolute;
+    right: 150px;
+    bottom: 50px;
+    margin: 0;  
 }
