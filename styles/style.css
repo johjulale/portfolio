@@ -122,15 +122,17 @@ h1 {
 }
 #js-logo {
     position: absolute;
-    left: 20px;
+    left: 220px;
     bottom: 0px;
     margin: 0;
     padding: 0;
+    z-index: 2;
 }
 #arduino-logo {
     position: absolute;
-    left: 175px;
-    top:200px;
+    left: 260px;
+    top:160px;
+    z-index: 3;
 }
 #sw-logo {
     position: absolute;
@@ -139,12 +141,23 @@ h1 {
 }
 #python-logo {
     position:absolute;
-    left: 75px;
-    top: 50px;
+    left: 100px;
+    top: 30px;
 
+}
+#html-logo {
+    position:absolute;
+    left: 0px;
+    top: 200px;
+}
+#css-logo {
+    position:absolute;
+    right: 120px;
+    bottom: 0px;
 }
 .pics {
     display: flex;
+    
     justify-content: center;
     
     
@@ -184,7 +197,18 @@ footer {
     display: flex;
     margin-top: 40px;
     justify-items: flex-start;
+    align-items: center;
 }
 .contact-logos img {
-    margin-right: 20px;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .pics {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
 }
